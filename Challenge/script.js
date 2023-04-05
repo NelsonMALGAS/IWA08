@@ -37,7 +37,7 @@ const sarah= {
 	address : {
 	number : parseFloat (sarahNumber),
 	street : (sarahStreet),
-	postal_code :parseFloat (sarahPostal)
+	postal_code : (sarahPostal)
 	}
 }	
 
