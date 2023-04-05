@@ -6,7 +6,7 @@ const leoBalance = '-10'
 
 const sarahName = 'Sarah    '
 const sarahSurname = 'Kleinhans'
-const sarahBalance = '-4587.21000111'//Removed re-declared sarahBalance and added to initial variable
+const sarahBalance = '-4582.21000111'
 const sarahNumber = '13'
 const sarahStreet = 'William Close'
 const sarahPostal = '0310'
@@ -18,9 +18,9 @@ const sarahAccess_id=' 6b279ae5-5657-4240-80e9-23f6b635f7a8'
 const rands='R'
 
 const leo = {
-	Lname : `${leoName}`,
+	Leoname : `${leoName}`,
 	balance :`${rands} ${parseFloat ((-1 * leoBalance).toFixed(2))}`,
-	access : (leoAccess_id),
+	access : `${(leoAccess_id)}`,
 	age : 24,
 	address: {
 	number:parseFloat (leoNumber),
