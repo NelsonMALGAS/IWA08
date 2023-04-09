@@ -18,7 +18,7 @@ const sarahAccess_id=' 6b279ae5-5657-4240-80e9-23f6b635f7a8'
 const rands='R'
 
 const leo = {
-	Leoname : `${leoName}`,
+	name : `${leoName}`,
 	balance :`${rands} ${parseFloat ((-1 * leoBalance).toFixed(2))}`,
 	access : `${(leoAccess_id)}`,
 	age : 24,
@@ -30,7 +30,7 @@ const leo = {
 }
 
 const sarah= {
-	Sname : `${(sarahName).trim()}  ${sarahSurname}`,
+	name : `${(sarahName).trim()}  ${sarahSurname}`,
 	age : 62,
 	access : (sarahAccess_id),
 	balance :`${rands} ${parseFloat ((-1 * sarahBalance).toFixed(2))}`,
